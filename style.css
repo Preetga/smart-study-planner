@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.container {
+  width: 500px;
+  margin: 80px auto;
+  background: #1e1e2f;
+  padding: 25px;
+  border-radius: 35px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  background: #00cec9;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #00b894;
+  transform: scale(1.05);
+}
+
+.counters p {
+  margin: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #2f3640;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.2s;
+}
+
+/* 🔥 Hover Effect */
+li:hover {
+  transform: scale(1.03);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* ✅ Completed Task Fix */
+.completed {
+  text-decoration: line-through;
+  background: #44bd32;
+  color: black; /* Better readability */
+}
+
+.task-content h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.task-content p {
+  margin: 5px 0;
+}
+
+.task-content small {
+  color: #ccc;
+}
+
+.task-buttons button {
+  margin: 3px;
+}
